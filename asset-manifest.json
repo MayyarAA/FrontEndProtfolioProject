@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/FrontEndProtfolioProject/static/css/main.03ea6904.chunk.css",
+    "main.js": "/FrontEndProtfolioProject/static/js/main.e75444e3.chunk.js",
+    "main.js.map": "/FrontEndProtfolioProject/static/js/main.e75444e3.chunk.js.map",
+    "runtime-main.js": "/FrontEndProtfolioProject/static/js/runtime-main.53a00db2.js",
+    "runtime-main.js.map": "/FrontEndProtfolioProject/static/js/runtime-main.53a00db2.js.map",
+    "static/js/2.93b3ab44.chunk.js": "/FrontEndProtfolioProject/static/js/2.93b3ab44.chunk.js",
+    "static/js/2.93b3ab44.chunk.js.map": "/FrontEndProtfolioProject/static/js/2.93b3ab44.chunk.js.map",
+    "static/js/3.6fd45f85.chunk.js": "/FrontEndProtfolioProject/static/js/3.6fd45f85.chunk.js",
+    "static/js/3.6fd45f85.chunk.js.map": "/FrontEndProtfolioProject/static/js/3.6fd45f85.chunk.js.map",
+    "index.html": "/FrontEndProtfolioProject/index.html",
+    "static/css/main.03ea6904.chunk.css.map": "/FrontEndProtfolioProject/static/css/main.03ea6904.chunk.css.map",
+    "static/js/2.93b3ab44.chunk.js.LICENSE.txt": "/FrontEndProtfolioProject/static/js/2.93b3ab44.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/FrontEndProtfolioProject/static/media/img-8.91a9c68b.jpeg",
+    "static/media/HeroSectionArea.css": "/FrontEndProtfolioProject/static/media/img-8.fabdf94d.jpg",
+    "static/media/javaImage.4757c6d1.jpg": "/FrontEndProtfolioProject/static/media/javaImage.4757c6d1.jpg",
+    "static/media/reactImage.13633ea5.jpg": "/FrontEndProtfolioProject/static/media/reactImage.13633ea5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53a00db2.js",
+    "static/js/2.93b3ab44.chunk.js",
+    "static/css/main.03ea6904.chunk.css",
+    "static/js/main.e75444e3.chunk.js"
+  ]
+}
