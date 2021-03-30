@@ -7,13 +7,28 @@ import {
 	Tabs,
 	Grid,
 	FormHelperText,
+	IconButton,
+	Box,
 } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import '../ComponentsCSS/Toolbar.css';
-
+import NavBar from './NavBar';
+const useStyles = makeStyles((theme) => ({
+	root: {
+		flexGrow: 1,
+	},
+	menuButton: {
+		marginRight: theme.spacing(1),
+	},
+	title: {
+		flexGrow: 1,
+	},
+}));
 function ToolbarComponent() {
+	const classes = useStyles();
 	const toolBar = (
 		<div>
 			<AppBar className='Appbar' position='sticky'>
@@ -26,9 +41,11 @@ function ToolbarComponent() {
 						alignItems='flex-end'>
 						<Router>
 							<Grid item alignItems='flex-start'>
-								<div className='AppbarH3'>
-									<h3>Mayyar Al-Atari </h3>
-								</div>
+								<Box display='flex' flexGrow={1}>
+									<div className={classes.title}>
+										<h3>Mayyar Al-Atari </h3>
+									</div>
+								</Box>
 							</Grid>
 							<Grid item>
 								<div>
@@ -49,7 +66,8 @@ function ToolbarComponent() {
 		</div>
 	);
 
-	return toolBar;
+	return <NavBar />;
+	// return toolBar;
 }
 
 export { ToolbarComponent };

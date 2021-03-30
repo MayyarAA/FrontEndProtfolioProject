@@ -13,5 +13,13 @@
 .AppbarH3 {
 	font: bold;
 	color: #fff;
+	justify-self: start;
+	margin-left: 20px;
+}
+.Appbarcontainer {
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	max-width: 1500px;
 }

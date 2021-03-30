@@ -7,17 +7,19 @@ import Home from './Pages/Home';
 import { StylesProvider } from '@material-ui/core';
 function App() {
 	return (
-		<div className='App'>
-			<Router>
-				<StylesProvider injectFirst>
-					<Container>
-						{ToolbarComponent()}
-						<Home />
-						<br />
-						<br />
-					</Container>
-				</StylesProvider>
-			</Router>
+		<div className='homeBackground'>
+			<div className='hi'>
+				<Router>
+					<StylesProvider injectFirst>
+						<Container>
+							{ToolbarComponent()}
+							<Home />
+							<br />
+							<br />
+						</Container>
+					</StylesProvider>
+				</Router>
+			</div>
 		</div>
 	);
 }

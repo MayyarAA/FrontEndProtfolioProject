@@ -1,0 +1,17 @@
+/* .fullScope {
+	background-color: black;
+} */
+
+/* .homeBackground {
+	background: url('../Pictures/backgroundattemp1.jpg') center center/cover
+		no-repeat;
+} */
+
+/* .ParentBackground {
+	background-color: gray;
+} */
+.FirstCoopH3 > H3 {
+	align-self: start;
+	align-items: flex-start;
+	text-align: start;
+}

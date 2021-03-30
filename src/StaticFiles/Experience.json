@@ -1,0 +1,18 @@
+{
+	"ExperienceFull": {
+		"ExperienceHeader": [
+			{
+				"FirstCoopHeader": "hello1",
+				"value": "printme1"
+			},
+			{
+				"CoopHeader": "hello2",
+				"CoopBody": [
+					"Reported directly to CTO to develop functional product requirements, by assessment of client needs",
+					"Developed value propositions of feature requests through the analysis of user experience and needs",
+					"Designed M.V.P, to gather early user feedback, which resulted in increased user adoption by 30"
+				]
+			}
+		]
+	}
+}
