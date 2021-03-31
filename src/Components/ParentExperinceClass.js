@@ -1,5 +1,11 @@
 import React from 'react';
-import { List, ListItem, ListItemText, ListItemIcon } from '@material-ui/core/';
+import {
+	List,
+	ListItem,
+	ListItemText,
+	ListItemIcon,
+	Typography,
+} from '@material-ui/core/';
 import { makeStyles } from '@material-ui/core/styles';
 import AddIcon from '@material-ui/icons/Add';
 import '../ComponentsCSS/OverallCSS.css';
@@ -28,7 +34,11 @@ function ParentExperinceClass(experienceArrayJSON, experienceHeaderValue) {
 				<ListItemIcon>
 					<AddIcon />
 				</ListItemIcon>
-				<ListItemText primary={experienceArrayJSON[i]} />
+				<ListItemText>
+					<Typography variant='h5' color='textSecondary' component='p'>
+						{experienceArrayJSON[i]}
+					</Typography>
+				</ListItemText>
 			</ListItem>
 		);
 	}
@@ -39,8 +49,10 @@ function ParentExperinceClass(experienceArrayJSON, experienceHeaderValue) {
 	);
 
 	let experinceH3Component = (
-		<div className='FirstCoopH3'>
-			<h3>{experienceHeaderValue}</h3>
+		<div>
+			<Typography variant='h4' color='textSecondary' component='p'>
+				{experienceHeaderValue}
+			</Typography>
 		</div>
 	);
 

@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
 	root: {
 		textAlign: 'left',
 		fontFamily: 'Cambria',
+		color: '',
 	},
 	icon: {
 		fontSize: 25,
@@ -24,9 +25,6 @@ export default function SkillsFullPage() {
 	let mongoSkillComponent = MongoSkillComponent();
 	return (
 		<div>
-			<Typography className={classes.root} variant='h2' gutterBottom>
-				Skills
-			</Typography>
 			<Grid container spacing={4}>
 				<Grid item> {javaScriptReactSkillComponent}</Grid>
 				<Grid item>{cSharpcomponent}</Grid>

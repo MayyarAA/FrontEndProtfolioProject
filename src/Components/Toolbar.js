@@ -15,7 +15,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import '../ComponentsCSS/Toolbar.css';
-import NavBar from './NavBar';
+
 const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
@@ -26,48 +26,49 @@ const useStyles = makeStyles((theme) => ({
 	title: {
 		flexGrow: 1,
 	},
+	items: {
+		fontSize: 40,
+	},
+	Appbartheme: {
+		position: 'fixed',
+		background: '#212121',
+	},
 }));
 function ToolbarComponent() {
 	const classes = useStyles();
 	const toolBar = (
-		<div>
-			<AppBar className='Appbar' position='sticky'>
-				<Toolbar>
-					<Grid
-						container
-						spacing={2}
-						direction='row'
-						justify='flex-end'
-						alignItems='flex-end'>
-						<Router>
-							<Grid item alignItems='flex-start'>
-								<Box display='flex' flexGrow={1}>
-									<div className={classes.title}>
-										<h3>Mayyar Al-Atari </h3>
-									</div>
-								</Box>
-							</Grid>
-							<Grid item>
-								<div>
-									<Link to='https://github.com/MayyarAA'>
-										<GitHubIcon style={{ fontSize: 40 }}></GitHubIcon>
-									</Link>
-								</div>
-							</Grid>
-							<Grid item>
-								<a href='https://www.linkedin.com/in/mayyar-al-atari-64b76b112'>
-									<LinkedInIcon style={{ fontSize: 40 }}></LinkedInIcon>
-								</a>
-							</Grid>
-						</Router>
-					</Grid>
-				</Toolbar>
-			</AppBar>
+		<div className='item'>
+			<div className={classes.root}>
+				<AppBar className={classes.Appbartheme}>
+					<Toolbar>
+						<IconButton
+							edge='start'
+							className={classes.menuButton}
+							color='inherit'
+							aria-label='menu'>
+							<div className='AppbarH3'>
+								<h3>Mayyar Al-Atari</h3>
+							</div>
+						</IconButton>
+						<Typography variant='h6' className={classes.title}></Typography>
+						<a href='https://github.com/MayyarAA'>
+							<GitHubIcon
+								className={classes.items}
+								style={({ fontSize: 90 }, { color: 'white' })}></GitHubIcon>
+						</a>
+						<a href='https://www.linkedin.com/in/mayyar-al-atari-64b76b112'>
+							<LinkedInIcon
+								className={classes.items}
+								style={({ fontSize: 70 }, { color: 'white' })}></LinkedInIcon>
+						</a>
+					</Toolbar>
+				</AppBar>
+			</div>
 		</div>
 	);
 
-	return <NavBar />;
-	// return toolBar;
+	// return <NavBar />;
+	return toolBar;
 }
 
 export { ToolbarComponent };

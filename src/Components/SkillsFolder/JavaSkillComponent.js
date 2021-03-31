@@ -2,8 +2,8 @@ import React from 'react';
 import SkillsPage from '../SkillsPage';
 import reactImage from '../../Pictures/javaImage.jpg';
 export default function JavaSkillComponent() {
-	let skillname = 'React.js';
-	let dscr = "Production Ready Expertise'";
+	let skillname = 'Java';
+	let dscr = 'Object Oriented & Multithreading skills';
 	let img = reactImage;
 	let fullDetail =
 		'My original programming language, developed the fundementails skills of Object Oriented Programming. Extensive experience in data structures & algorthims';

@@ -15,3 +15,10 @@
 	align-items: flex-start;
 	text-align: start;
 }
+
+.WorkExperienceHeader > H2 {
+	align-self: start;
+	align-items: flex-start;
+	text-align: start;
+	font-size: large;
+}

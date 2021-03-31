@@ -11,12 +11,12 @@ function App() {
 			<div className='hi'>
 				<Router>
 					<StylesProvider injectFirst>
-						<Container>
-							{ToolbarComponent()}
-							<Home />
-							<br />
-							<br />
-						</Container>
+						{/* <Container> */}
+						{ToolbarComponent()}
+						<Home />
+						<br />
+						<br />
+						{/* </Container> */}
 					</StylesProvider>
 				</Router>
 			</div>

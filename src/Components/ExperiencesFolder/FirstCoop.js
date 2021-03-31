@@ -9,11 +9,11 @@ import ParentExperinceClass from '../ParentExperinceClass';
 let firstCoopDetails = [
 	'	Reported directly to CTO to develop functional product requirements, by assessment of client needs',
 	'	Developed value propositions of feature requests through the analysis of user experience and needs',
-	'·	Designed M.V.P, to gather early user feedback, which resulted in increased user adoption by 30%',
+	'	Designed M.V.P, to gather early user feedback, which resulted in increased user adoption by 30%',
 ];
 
 let value =
-	'TECHNICAL PRODUCT MANAGER| ZENDUIT| DEC 2018-MAY 2019 | TORONTO-DUBAI';
+	' TECHNICAL PRODUCT MANAGER| ZENDUIT| DEC 2018-MAY 2019 | TORONTO-DUBAI';
 function FirstCoop() {
 	let component = <div>{ParentExperinceClass(firstCoopDetails, value)}</div>;
 	return <div>{component}</div>;

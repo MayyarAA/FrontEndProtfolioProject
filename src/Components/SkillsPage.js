@@ -18,7 +18,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 import reactImage from '../Pictures/reactImage.jpg';
 const useStyles = makeStyles((theme) => ({
 	root: {
-		maxWidth: 345,
+		maxWidth: 500,
 	},
 	media: {
 		height: 0,
@@ -50,21 +50,8 @@ export default function SkillsPage(skillname, dscr, img, fullDetail) {
 	return (
 		<div>
 			<Card className={classes.root}>
-				<CardHeader
-					avatar={
-						<Avatar aria-label='recipe' className={classes.avatar}>
-							R
-						</Avatar>
-					}
-					action={
-						<IconButton aria-label='settings'>
-							<MoreVertIcon />
-						</IconButton>
-					}
-					title={skillname}
-					subheader={dscr}
-				/>
-				<CardMedia className={classes.media} image={img} title='React' />
+				<CardHeader title={skillname} subheader={dscr} />
+				<CardMedia className={classes.media} image={img} title={skillname} />
 
 				<CardActions disableSpacing>
 					<IconButton aria-label='add to favorites'>
@@ -76,7 +63,7 @@ export default function SkillsPage(skillname, dscr, img, fullDetail) {
 				</CardActions>
 				{/* <Collapse in={expanded} timeout='auto' unmountOnExit> */}
 				<CardContent>
-					<Typography variant='body2' color='textSecondary' component='p'>
+					<Typography variant='h6' color='textSecondary' component='p'>
 						{fullDetail}
 					</Typography>
 				</CardContent>
