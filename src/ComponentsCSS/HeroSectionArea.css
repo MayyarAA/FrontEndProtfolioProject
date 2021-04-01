@@ -22,6 +22,18 @@
 	margin-top: auto;
 }
 
+.heroTypedElement > span {
+	color: #fff;
+	font-size: 40px;
+	margin-top: auto;
+}
+
+div.heroTypedElement > span[disabled='true'] {
+	display: none;
+}
+div.heroTypedElement > span[disabled='false'] {
+	display: inline;
+}
 @media screen and (max-width: 780px) {
 	.heroContainerH1 > h1 {
 		color: #fff;

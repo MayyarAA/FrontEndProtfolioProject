@@ -14,6 +14,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import Typed from 'react-typed';
 import '../ComponentsCSS/Toolbar.css';
 
 const useStyles = makeStyles((theme) => ({
@@ -29,10 +30,7 @@ const useStyles = makeStyles((theme) => ({
 	items: {
 		fontSize: 40,
 	},
-	Appbartheme: {
-		position: 'fixed',
-		background: '#212121',
-	},
+	Appbartheme: { background: '#212121' },
 }));
 function ToolbarComponent() {
 	const classes = useStyles();
