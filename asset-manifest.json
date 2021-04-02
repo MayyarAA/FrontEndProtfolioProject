@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/FrontEndProtfolioProject/static/css/main.de819c2e.chunk.css",
-    "main.js": "/FrontEndProtfolioProject/static/js/main.d34d5202.chunk.js",
-    "main.js.map": "/FrontEndProtfolioProject/static/js/main.d34d5202.chunk.js.map",
-    "runtime-main.js": "/FrontEndProtfolioProject/static/js/runtime-main.1c9f2a4d.js",
-    "runtime-main.js.map": "/FrontEndProtfolioProject/static/js/runtime-main.1c9f2a4d.js.map",
-    "static/js/2.91ebc373.chunk.js": "/FrontEndProtfolioProject/static/js/2.91ebc373.chunk.js",
-    "static/js/2.91ebc373.chunk.js.map": "/FrontEndProtfolioProject/static/js/2.91ebc373.chunk.js.map",
-    "static/js/3.3c8c5d3a.chunk.js": "/FrontEndProtfolioProject/static/js/3.3c8c5d3a.chunk.js",
-    "static/js/3.3c8c5d3a.chunk.js.map": "/FrontEndProtfolioProject/static/js/3.3c8c5d3a.chunk.js.map",
+    "main.css": "/FrontEndProtfolioProject/static/css/main.ec25baa4.chunk.css",
+    "main.js": "/FrontEndProtfolioProject/static/js/main.2003b301.chunk.js",
+    "main.js.map": "/FrontEndProtfolioProject/static/js/main.2003b301.chunk.js.map",
+    "runtime-main.js": "/FrontEndProtfolioProject/static/js/runtime-main.77a97654.js",
+    "runtime-main.js.map": "/FrontEndProtfolioProject/static/js/runtime-main.77a97654.js.map",
+    "static/js/2.ae6af16e.chunk.js": "/FrontEndProtfolioProject/static/js/2.ae6af16e.chunk.js",
+    "static/js/2.ae6af16e.chunk.js.map": "/FrontEndProtfolioProject/static/js/2.ae6af16e.chunk.js.map",
+    "static/js/3.b32b80d9.chunk.js": "/FrontEndProtfolioProject/static/js/3.b32b80d9.chunk.js",
+    "static/js/3.b32b80d9.chunk.js.map": "/FrontEndProtfolioProject/static/js/3.b32b80d9.chunk.js.map",
     "index.html": "/FrontEndProtfolioProject/index.html",
-    "static/css/main.de819c2e.chunk.css.map": "/FrontEndProtfolioProject/static/css/main.de819c2e.chunk.css.map",
-    "static/js/2.91ebc373.chunk.js.LICENSE.txt": "/FrontEndProtfolioProject/static/js/2.91ebc373.chunk.js.LICENSE.txt",
+    "static/css/main.ec25baa4.chunk.css.map": "/FrontEndProtfolioProject/static/css/main.ec25baa4.chunk.css.map",
+    "static/js/2.ae6af16e.chunk.js.LICENSE.txt": "/FrontEndProtfolioProject/static/js/2.ae6af16e.chunk.js.LICENSE.txt",
     "static/media/App.css": "/FrontEndProtfolioProject/static/media/img-8.91a9c68b.jpeg",
     "static/media/HeroSectionArea.css": "/FrontEndProtfolioProject/static/media/img-8.fabdf94d.jpg",
     "static/media/javaImage.4757c6d1.jpg": "/FrontEndProtfolioProject/static/media/javaImage.4757c6d1.jpg",
@@ -19,9 +19,9 @@
     "static/media/reactImage.13633ea5.jpg": "/FrontEndProtfolioProject/static/media/reactImage.13633ea5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1c9f2a4d.js",
-    "static/js/2.91ebc373.chunk.js",
-    "static/css/main.de819c2e.chunk.css",
-    "static/js/main.d34d5202.chunk.js"
+    "static/js/runtime-main.77a97654.js",
+    "static/js/2.ae6af16e.chunk.js",
+    "static/css/main.ec25baa4.chunk.css",
+    "static/js/main.2003b301.chunk.js"
   ]
 }
