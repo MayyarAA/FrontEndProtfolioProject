@@ -32,6 +32,24 @@
 	text-align: center;
 	width: 60vw;
 	justify-content: end;
+	font: 70px;
 
 	margin-right: 1rem;
+}
+
+.footer {
+	margin-top: 1rem;
+	padding: 1rem;
+	background-color: rgb(0, 0, 0);
+	position: static;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.bottomNavH3 > h3 {
+	font: bold;
+	color: #fff;
+	justify-self: start;
+
+	margin-left: 20px;
 }

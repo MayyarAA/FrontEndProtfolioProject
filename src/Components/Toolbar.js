@@ -15,7 +15,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Typed from 'react-typed';
-import '../ComponentsCSS/Toolbar.css';
+// import '../ComponentsCSS/Toolbar.css';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -37,7 +37,7 @@ function ToolbarComponent() {
 	const toolBar = (
 		<div className='item'>
 			<div className={classes.root}>
-				<AppBar className={classes.Appbartheme}>
+				<AppBar className={classes.Appbartheme} position='static'>
 					<Toolbar>
 						<IconButton
 							edge='start'

@@ -12,7 +12,7 @@ function App() {
 				<Router>
 					<StylesProvider injectFirst>
 						{/* <Container> */}
-						<ToolbarComponent />
+						{/* <ToolbarComponent /> */}
 						<Home />
 						<br />
 						<br />
