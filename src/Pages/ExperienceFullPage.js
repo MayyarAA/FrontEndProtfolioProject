@@ -9,7 +9,7 @@ import ThirdCoop from '../Components/ExperiencesFolder/ThirdCoop';
 function ExperienceFullPage() {
 	return (
 		<div>
-			<Box>
+			<Box mx='auto'>
 				<ExperiencesTotalText />
 			</Box>
 			<Box boxShadow={2}>

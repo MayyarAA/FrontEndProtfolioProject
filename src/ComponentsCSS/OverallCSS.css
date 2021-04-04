@@ -15,12 +15,28 @@
 	align-items: flex-start;
 	text-align: start;
 }
+.centerAboutText {
+	text-align: center;
+}
 
+.centerAboutImage {
+	align-content: center;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+}
 .WorkExperienceHeader > H2 {
 	align-self: start;
 	align-items: flex-start;
 	text-align: start;
 	font-size: large;
+}
+.aboutCenter {
+	text-align: center;
+	align-content: center;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
 }
 
 .footer {

@@ -32,44 +32,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 function FooterComponent() {
 	const classes = useStyles();
-	let niceFooter = (
-		<div>
-			<div className='item'>
-				<div className={classes.root}>
-					<AppBar className={classes.Appbartheme} position='static'>
-						<Toolbar>
-							<IconButton
-								edge='start'
-								className={classes.menuButton}
-								color='inherit'
-								aria-label='menu'>
-								<div className='AppbarH3'>
-									<h3>Mayyar Al-Atari</h3>
-								</div>
-							</IconButton>
-							<Typography variant='h6' className={classes.title}></Typography>
-
-							<Grid Container>
-								<Grid item>hello</Grid>
-								<Grid item>heloo2</Grid>
-							</Grid>
-							<Typography variant='h6' className={classes.title}></Typography>
-							<a href='https://github.com/MayyarAA'>
-								<GitHubIcon
-									className={classes.items}
-									style={({ fontSize: 90 }, { color: 'white' })}></GitHubIcon>
-							</a>
-							<a href='https://www.linkedin.com/in/mayyar-al-atari-64b76b112'>
-								<LinkedInIcon
-									className={classes.items}
-									style={({ fontSize: 70 }, { color: 'white' })}></LinkedInIcon>
-							</a>
-						</Toolbar>
-					</AppBar>
-				</div>
-			</div>
-		</div>
-	);
 
 	let footerComponentTwo = (
 		<div className='footer-container'>
@@ -107,15 +69,19 @@ function FooterComponent() {
 				<div className='footer-link-wrapper'>
 					<div class='footer-link-items'>
 						<h2>Projects</h2>
-						<a>Identity Server </a>
-						<a>MVC Project</a>
-						<a>MERN Project</a>
+						<a href='https://github.com/MayyarAA/IdentityServer4OAuth2OpenIdConnect'>
+							Identity Server{' '}
+						</a>
+						<a href='https://github.com/MayyarAA/MicroServiceRunner'>
+							MVC Project
+						</a>
+						<a href='https://github.com/MayyarAA/exerciseapp'>MERN Project</a>
 					</div>
-					<div class='footer-link-items'></div>
+					{/* <div class='footer-link-items'></div> */}
 					<div class='footer-link-items'>
 						<h2>Social Media</h2>
 
-						<Link to='/'>Facebook</Link>
+						<a href='https://www.facebook.com/mayyar.alatari/'>Facebook</a>
 					</div>
 					<div class='footer-link-items'></div>
 					<div class='footer-link-items'>

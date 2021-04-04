@@ -169,5 +169,24 @@
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
+	.footer-links {
+		padding-top: 2rem;
+	}
+
+	.footer-input {
+		width: 100%;
+	}
+
+	.btn {
+		width: 100%;
+	}
+
+	.footer-link-wrapper {
+		flex-direction: column;
+	}
+
+	.social-media-wrap {
+		flex-direction: column;
+	}
 }
