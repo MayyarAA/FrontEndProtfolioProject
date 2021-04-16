@@ -24,10 +24,10 @@ function ExperienceFullPage() {
 				<br />
 				<ThirdCoop />
 			</Box>
-			<Box boxShadow={2}>
+			{/* <Box boxShadow={2}>
 				<br />
 				<SecondCoop />
-			</Box>
+			</Box> */}
 			<Box boxShadow={2}>
 				<br />
 				<FirstCoop />

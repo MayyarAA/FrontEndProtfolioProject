@@ -57,9 +57,7 @@ export default function SkillsPage(skillname, dscr, img, fullDetail) {
 					<IconButton aria-label='add to favorites'>
 						<FavoriteIcon />
 					</IconButton>
-					<IconButton aria-label='share'>
-						<ShareIcon />
-					</IconButton>
+					<IconButton aria-label='share'>{/* <ShareIcon /> */}</IconButton>
 				</CardActions>
 				{/* <Collapse in={expanded} timeout='auto' unmountOnExit> */}
 				<CardContent>
