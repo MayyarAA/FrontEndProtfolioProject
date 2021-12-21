@@ -7,6 +7,7 @@ import { ToolbarComponent } from '../Components/Toolbar';
 import SkillsFullPage from './SkillsFullPage';
 import '../ComponentsCSS/OverallCSS.css';
 import ExperienceFullPage from './ExperienceFullPage';
+import PublishedArticlesPage from './PublishedArticlesPage';
 import { Grid, Typography, Container } from '@material-ui/core';
 function Home() {
 	return (
@@ -26,6 +27,11 @@ function Home() {
 
 				<Grid container justify='center'>
 					<SkillsFullPage />
+				</Grid>
+				<br />
+				<br />
+				<Grid container justify='center'>
+					<PublishedArticlesPage />
 				</Grid>
 				<br />
 				<br />

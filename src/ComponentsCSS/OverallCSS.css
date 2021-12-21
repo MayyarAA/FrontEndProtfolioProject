@@ -45,3 +45,8 @@
 	background-color: tomato;
 	color: white;
 }
+
+.container a {
+	color: #ff0000;
+	text-decoration: none;
+}
