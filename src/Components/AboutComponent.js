@@ -24,11 +24,7 @@ let charityString =
 function AboutComponent() {
 	let header = (
 		<div className='centerAboutText'>
-			<Typography
-				variant='h2'
-				color='textPrimary'
-				component='p'
-				justify='center'>
+			<Typography variant='h2' color='textPrimary' component='p' justify='center'>
 				About Me
 			</Typography>
 		</div>
@@ -36,11 +32,7 @@ function AboutComponent() {
 
 	let headerDescr = (
 		<div className='centerAboutText'>
-			<Typography
-				variant='h4'
-				color='textPrimary'
-				component='p'
-				justify='center'>
+			<Typography variant='h4' color='textPrimary' component='p' justify='center'>
 				Technical Summary
 			</Typography>
 		</div>
@@ -55,38 +47,35 @@ function AboutComponent() {
 	);
 
 	let aboutMeImgDesc = (
-		<Box boxShadow={2} width={700} height={600} mx='auto'>
-			{headerDescr}
-			<br />
-			<div className='aboutCenter'>
-				<div>
-					{/* <Container> */}
-					<img src={imgTwo}></img>
-					{/* </Container> */}
-				</div>
-				<div>{aboutComponent}</div>
-			</div>
-		</Box>
+		<div className='container'>
+			<a href='https://www.linkedin.com/in/mayyar-al-atari-64b76b112'>
+				<Box boxShadow={2}>
+					{headerDescr}
+					<br />
+					<div className='aboutCenter'>
+						<div>
+							<img src={imgTwo}></img>
+						</div>
+						<div>{aboutComponent}</div>
+					</div>
+				</Box>
+			</a>
+		</div>
 	);
 
 	let favCharityComponent = (
 		<div>
 			<Box boxShadow={2}>
 				<div className='centerAboutText'>
-					<Typography
-						variant='h4'
-						color='textPrimary'
-						component='p'
-						justify='center'>
+					<Typography variant='h4' color='textPrimary' component='p' justify='center'>
 						Favourite Charity
 					</Typography>
 				</div>
 				<br />
-				<div className='aboutCenter'>
+				{/* <div className='aboutCenter'> */}
+				<div>
 					<div>
-						{/* <Container> */}
 						<img src={imgCharity}></img>
-						{/* </Container> */}
 					</div>
 					<Typography variant='h4' color='textSecondary' component='p'>
 						{charityString}
@@ -100,11 +89,7 @@ function AboutComponent() {
 		<div>
 			<Box boxShadow={2}>
 				<div className='centerAboutText'>
-					<Typography
-						variant='h4'
-						color='textPrimary'
-						component='p'
-						justify='center'>
+					<Typography variant='h4' color='textPrimary' component='p' justify='center'>
 						Intriguing Painting
 					</Typography>
 				</div>

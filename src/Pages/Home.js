@@ -1,8 +1,7 @@
 import React from 'react';
-import HeroSectionArea from '../Components/HeroSectionArea';
+import HeroSectionArea from '../Components/HeroSectionArea.js';
 import AboutComponent from '../Components/AboutComponent';
 import FooterComponent from '../Components/FooterComponent';
-import ParentExperinceClass from '../Components/ParentExperinceClass';
 import { ToolbarComponent } from '../Components/Toolbar';
 import SkillsFullPage from './SkillsFullPage';
 import '../ComponentsCSS/OverallCSS.css';
