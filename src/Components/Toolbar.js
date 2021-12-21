@@ -15,6 +15,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Typed from 'react-typed';
+import mediumpng from '../Pictures/mediumpng.png';
 // import '../ComponentsCSS/Toolbar.css';
 
 const useStyles = makeStyles((theme) => ({
@@ -58,6 +59,9 @@ function ToolbarComponent() {
 							<LinkedInIcon
 								className={classes.items}
 								style={({ fontSize: 70 }, { color: 'white' })}></LinkedInIcon>
+						</a>
+						<a href='https://mayyaralatari.medium.com/'>
+							<img src={mediumpng} alt='mayyar al-atari svg' width='36' height='35' />
 						</a>
 					</Toolbar>
 				</AppBar>
