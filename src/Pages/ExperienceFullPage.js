@@ -4,6 +4,7 @@ import SecondCoop from '../Components/ExperiencesFolder/SecondCoop';
 import ExperiencesTotalText from '../Components/Experiences';
 import { Box } from '@material-ui/core';
 import FifthCoop from '../Components/ExperiencesFolder/FifthCoop';
+import SixthCoop from '../Components/ExperiencesFolder/SixthCoop';
 import FourthCoop from '../Components/ExperiencesFolder/FourthCoop';
 import ThirdCoop from '../Components/ExperiencesFolder/ThirdCoop';
 function ExperienceFullPage() {
@@ -11,6 +12,10 @@ function ExperienceFullPage() {
 		<div>
 			<Box mx='auto'>
 				<ExperiencesTotalText />
+			</Box>
+			<Box boxShadow={2}>
+				<br />
+				<SixthCoop />
 			</Box>
 			<Box boxShadow={2}>
 				<br />

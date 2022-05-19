@@ -12,8 +12,7 @@ let firstCoopDetails = [
 	'	Designed M.V.P, to gather early user feedback, which resulted in increased user adoption by 30%',
 ];
 
-let value =
-	' TECHNICAL PRODUCT MANAGER| ZENDUIT| DEC 2018-MAY 2019 | TORONTO-DUBAI';
+let value = ' TECHNICAL PRODUCT MANAGER | ZENDUIT| DEC 2018 - MAY 2019';
 function FirstCoop() {
 	let component = <div>{ParentExperinceClass(firstCoopDetails, value)}</div>;
 	return <div>{component}</div>;

@@ -8,8 +8,7 @@ let firstCoopDetails = [
 	'Designed database schema, and subsequently developed and launched an Azure SQL database  ',
 ];
 
-let value =
-	' FULL-STACK SOFTWARE ENGINEER| MANULIFE FINANCIAL| SEP 2019-JAN 2020 | WATERLOO';
+let value = 'SOFTWARE ENGINEER | MANULIFE FINANCIAL| SEP 2019 - JAN 2020';
 function ThirdCoop() {
 	let component = <div>{ParentExperinceClass(firstCoopDetails, value)}</div>;
 	return <div>{component}</div>;

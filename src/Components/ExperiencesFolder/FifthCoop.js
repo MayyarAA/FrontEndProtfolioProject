@@ -7,8 +7,7 @@ let firstCoopDetails = [
 	'Developed POC Endpoint Detection Tool, utilizing C# compiler Roslyn for automated API security ',
 	'Worked on static analysis using VeraCode to identify & resolve vulnerabilities in production code',
 ];
-let value =
-	'CYBERSECURITY SOFTWARE ENGINEER | CERIDIAN | DEC 2020-MAR 2020 | REMOTE WORK  ';
+let value = 'CYBERSECURITY SOFTWARE ENGINEER | CERIDIAN | DEC 2020 - MAR 2020';
 function FifthCoop() {
 	let component = <div>{ParentExperinceClass(firstCoopDetails, value)}</div>;
 	return <div>{component}</div>;
