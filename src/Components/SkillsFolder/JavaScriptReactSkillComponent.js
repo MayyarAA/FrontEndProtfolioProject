@@ -6,7 +6,7 @@ export default function JavaScriptReactSkillComponent() {
 	let dscr = 'Production Ready Expertise';
 	let img = reactImage;
 	let fullDetail =
-		'Developed Responsive Web Application for both end user Web Applications and for internal Web Applications ';
+		'Developed Responsive Web Application for both end user Web Applications and for internal Web Applications.';
 	let component = <div>{SkillsPage(skillname, dscr, img, fullDetail)}</div>;
 	// SkillsPage();
 	return <div> {component}</div>;

@@ -1,9 +1,11 @@
 import React from 'react';
 import CSharpSkillsComponenet from '../Components/SkillsFolder/CSharpSkillComponent';
+import AWSLambdacomponent from '../Components/SkillsFolder/AWSLambdacomponent';
 import JavaSkillComponent from '../Components/SkillsFolder/JavaSkillComponent';
 import JavaScriptReactSkillComponent from '../Components/SkillsFolder/JavaScriptReactSkillComponent';
 import { Grid } from '@material-ui/core';
 import MongoSkillComponent from '../Components/SkillsFolder/MongoSkillComponent';
+import GraphQLSkillComponent from '../Components/SkillsFolder/GraphQLSkillComponent';
 import NodeSkillComponent from '../Components/SkillsFolder/NodeSkillComponent';
 import DevOpsSkillComponent from '../Components/SkillsFolder/DevOpsSkillComponent';
 import { Typography } from '@material-ui/core';
@@ -21,10 +23,12 @@ const useStyles = makeStyles((theme) => ({
 }));
 export default function SkillsFullPage() {
 	const classes = useStyles();
-	let cSharpcomponent = CSharpSkillsComponenet();
+	// let cSharpcomponent = CSharpSkillsComponenet();
+	let awsLambdacomponent = AWSLambdacomponent();
 	let javaScriptReactSkillComponent = JavaScriptReactSkillComponent();
 	let javaSkillComponent = JavaSkillComponent();
 	let mongoSkillComponent = MongoSkillComponent();
+	let graphQLSkillComponent = GraphQLSkillComponent();
 	let nodeSkillComponent = NodeSkillComponent();
 	let devOpsSkillComponent = DevOpsSkillComponent();
 	return (
@@ -44,10 +48,12 @@ export default function SkillsFullPage() {
 				spacing={4}>
 				<Grid item></Grid>
 				<Grid item> {javaScriptReactSkillComponent}</Grid>
-				<Grid item>{cSharpcomponent}</Grid>
+				{/* <Grid item>{cSharpcomponent}</Grid> */}
+				<Grid item>{awsLambdacomponent}</Grid>
 				<Grid item>{javaSkillComponent}</Grid>
 				<Grid item>{nodeSkillComponent} </Grid>
-				<Grid item>{mongoSkillComponent}</Grid>
+				{/* <Grid item>{mongoSkillComponent}</Grid> */}
+				<Grid item>{graphQLSkillComponent}</Grid>
 				<Grid item> {devOpsSkillComponent}</Grid>
 			</Grid>
 			{/* </Box> */}

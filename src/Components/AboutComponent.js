@@ -16,7 +16,7 @@ import imgCharity from '../Pictures/globalCitizenImg.png';
 import imgPainting from '../Pictures/favPainting.jpeg';
 import imgTwo from '../Pictures/linkedInImagetwo.png';
 let aboutString =
-	'Innovative Full-stack developer with a focus on Application Security in cloud native environments.  Enterprise  developer experience in Web Applications, DevOps, Cloud Computing, Identity Provider Services';
+	'Innovative Full-stack developer with a focus on Application Security in cloud native environments.  Enterprise experience in Server-side Enginenring, Web Applications, Cloud Computing, Identity Provider Services';
 
 let charityString =
 	' Global Citizen is an international advocacy organization working to end poverty across the globe. The charity focuses on empowering engaged citizens who use their collective voices and influence to build solutions for extreme poverty	';
