@@ -53,3 +53,9 @@
 
 	margin-left: 20px;
 }
+
+.link {
+	color: white;
+	text-decoration: none;
+	background-color: none;
+}

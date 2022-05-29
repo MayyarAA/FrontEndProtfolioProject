@@ -47,11 +47,11 @@ export default function SkillsFullPage() {
 				style={{ minHeight: '100vh' }}
 				spacing={4}>
 				<Grid item></Grid>
-				<Grid item> {javaScriptReactSkillComponent}</Grid>
+				<Grid item>{nodeSkillComponent} </Grid>
 				{/* <Grid item>{cSharpcomponent}</Grid> */}
 				<Grid item>{awsLambdacomponent}</Grid>
 				<Grid item>{javaSkillComponent}</Grid>
-				<Grid item>{nodeSkillComponent} </Grid>
+				<Grid item> {javaScriptReactSkillComponent}</Grid>
 				{/* <Grid item>{mongoSkillComponent}</Grid> */}
 				<Grid item>{graphQLSkillComponent}</Grid>
 				<Grid item> {devOpsSkillComponent}</Grid>

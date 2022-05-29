@@ -36,12 +36,9 @@ function FooterComponent() {
 	let footerComponentTwo = (
 		<div className='footer-container'>
 			<section className='footer-subscription'>
-				<p className='footer-subscription-heading'>
-					Submit your email for any questions
-				</p>
+				<p className='footer-subscription-heading'>Submit your email for any questions</p>
 				<p className='footer-subscription-text'>
-					If you need help with scaling your application or meeting delivery
-					specification
+					If you need help with scaling your application or meeting delivery specification
 				</p>
 
 				<div className='input-areas'>
@@ -72,9 +69,7 @@ function FooterComponent() {
 						<a href='https://github.com/MayyarAA/IdentityServer4OAuth2OpenIdConnect'>
 							Identity Server{' '}
 						</a>
-						<a href='https://github.com/MayyarAA/MicroServiceRunner'>
-							MVC Project
-						</a>
+						<a href='https://github.com/MayyarAA/FrontEndProtfolioProject'>My Source Code</a>
 						<a href='https://github.com/MayyarAA/exerciseapp'>MERN Project</a>
 					</div>
 					{/* <div class='footer-link-items'></div> */}
@@ -117,18 +112,10 @@ function FooterComponent() {
 							aria-label='Instagram'>
 							<i class='fab fa-instagram' />
 						</Link>
-						<Link
-							class='social-icon-link youtube'
-							to='/'
-							target='_blank'
-							aria-label='Youtube'>
+						<Link class='social-icon-link youtube' to='/' target='_blank' aria-label='Youtube'>
 							<i class='fab fa-youtube' />
 						</Link>
-						<Link
-							class='social-icon-link twitter'
-							to='/'
-							target='_blank'
-							aria-label='Twitter'>
+						<Link class='social-icon-link twitter' to='/' target='_blank' aria-label='Twitter'>
 							<i class='fab fa-twitter' />
 						</Link>
 						<Link
@@ -155,16 +142,12 @@ function FooterComponent() {
 						<ul className='Navmenu'>
 							<li>
 								<a href='https://github.com/MayyarAA'>
-									<GitHubIcon
-										style={({ fontSize: 70 }, { color: 'white' })}></GitHubIcon>
+									<GitHubIcon style={({ fontSize: 70 }, { color: 'white' })}></GitHubIcon>
 								</a>
 							</li>
 							<li>
 								<a href='https://www.linkedin.com/in/mayyar-al-atari-64b76b112'>
-									<LinkedInIcon
-										style={
-											({ fontSize: 70 }, { color: 'white' })
-										}></LinkedInIcon>
+									<LinkedInIcon style={({ fontSize: 70 }, { color: 'white' })}></LinkedInIcon>
 								</a>
 							</li>
 						</ul>
