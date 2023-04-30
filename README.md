@@ -1,5 +1,11 @@
-##Demo site
+## Demo site
+
 Check out my website https://mayyaraa.github.io//FrontEndProtfolioProject/
+
+## How to deploy to github pages
+
+`yarn run deploy`
+
 ## Available Scripts
 
 In the project directory, you can run:
