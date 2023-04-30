@@ -27,7 +27,7 @@ function HeroSectionArea() {
 			<div className='heroContainerH1'>
 				<h1>Mayyar Al-Atari</h1>
 				<div className='heroContainerH4'>
-					<h4>Eternal Quest for Improvement </h4>
+					<h4>Creating the Solutions of Tomorrow  </h4>
 					<Grid container>
 						<Grid item>
 							<div className='heroTypedElement'>

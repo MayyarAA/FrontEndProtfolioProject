@@ -7,12 +7,17 @@ import FifthCoop from '../Components/ExperiencesFolder/FifthCoop';
 import SixthCoop from '../Components/ExperiencesFolder/SixthCoop';
 import FourthCoop from '../Components/ExperiencesFolder/FourthCoop';
 import ThirdCoop from '../Components/ExperiencesFolder/ThirdCoop';
+import AmazonWork from '../Components/ExperiencesFolder/amazonWork'
 function ExperienceFullPage() {
 	return (
 		<div>
 			<Box mx='auto'>
 				<ExperiencesTotalText />
 			</Box>
+			<Box boxShadow={2}>
+				<br />
+				<AmazonWork />
+			</Box>			
 			<Box boxShadow={2}>
 				<br />
 				<SixthCoop />

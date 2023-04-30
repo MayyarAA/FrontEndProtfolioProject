@@ -7,7 +7,7 @@ let firstCoopDetails = [
 	'Developed architecture for real-time WebSocket app, reducing tight coupling between server & client-side apps ',
 	'Refactored API project in Domain Driven Design application, improving code structure and performance ',
 ];
-let value = 'SERVER-SIDE SOFTWARE ENGINEER | REUTERS | Sept 2021 - May 2022';
+let value = 'BACK-END SOFTWARE ENGINEER | REUTERS | Sept 2021 - May 2022';
 function FifthCoop() {
 	let component = <div>{ParentExperinceClass(firstCoopDetails, value)}</div>;
 	return <div>{component}</div>;
